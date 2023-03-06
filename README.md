@@ -1,6 +1,8 @@
 # PYTHON - MAR 2023
 
 [![Open in Visual Studio Code](https://img.shields.io/badge/open%20in%20vscode-blue??style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/jupiterorbita/PYTHON_MAR_2023)
+<!-- FOLLOW -->
+[![follow](https://img.shields.io/github/followers/jupiterorbita.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/jupiterorbita)
 <!-- [![Open in Visual Studio Code](https://img.shields.io/badge/open%20in%20vscode-blue?style=flat-square&logo=visualstudiocode)](https://open.vscode.dev/jupiterorbita/PYTHON_MAR_2023) -->
 <!-- [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/jupiterorbita/PYTHON_MAR_2023) -->
 
