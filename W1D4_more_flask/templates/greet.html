@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greet</title>
+    <!-- linking a css style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/my_style.css') }}">
+</head>
+<body>
+    <h1>Greet!</h1>
+    <hr>
+    {# this is a jinja comment #}
+    
+    {% for i in range(times): %}
+        <p>{{i+1}} - {{name}}</p>
+        {% if i == 4 %}
+            <!-- linking an image -->
+            <img src="{{ url_for('static', filename='img/quote.png') }}">
+        {% endif %}
+    {% endfor %}
+    
+    <!-- linking a javascript file -->
+    <script type="text/javascript" src="{{ url_for('static', filename='cool_js.js') }}"></script>
+</body>
+</html>
