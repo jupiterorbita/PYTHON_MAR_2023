@@ -16,7 +16,7 @@
     <!-- {{zoo}} -->
     <hr>
     {% for one_animal in zoo : %}
-        <li>there are {{one_animal.number}} {{one_animal.name}} in the zoo</li>
+        <li>there are {{one_animal['number']}} {{one_animal.name}} in the zoo</li>
     {% endfor %}
 
     <hr>
