@@ -1,0 +1,9 @@
+self.store = store
+self.items.append(item)
+def add_item(self, item, price):
+self.items = []
+def __init__(self, store):
+class ShoppingCart:
+return self
+self.total = 0
+self.total += price
